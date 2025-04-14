@@ -1,8 +1,15 @@
 <template>
-  <div class="editor" />
+  <div class="editor">
+  </div>
 </template>
 
 <script lang="ts" setup>
+interface Props {
+}
+
+interface Emits {
+}
+
 
 </script>
 
@@ -12,5 +19,6 @@
   height: 400px;
   padding: 20px;
   border: 1px #fff dashed;
+  text-align: left;
 }
 </style>
